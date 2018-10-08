@@ -2,15 +2,13 @@
     font-size: 2.2em;
 }
 
-h1 {
+h1, p {
     margin: 0;
 }
 /* span {
     margin: 1.1em;
 } */
 div {
-    /* border: 1px solid magenta; */
-    width: 45%;
     display: inline-block;
 }
 
@@ -22,11 +20,38 @@ div {
     vertical-align: top;
 }
 
+.topalign, .rightjust {
+    width:49%;
+    display: inline-block;
+}
+
 table {
     width: 75%;
+    text-align: center;
+}
+table, tr, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
 }
 td {
     text-align: center;
     font-size: 1.2em;
     width: 20%;
+}
+
+span {
+    font-size: 1.2em;
+}
+li {
+    font-size: 1.2em;
+}
+
+.jorb {
+    font-size: 1.05em;
+}
+.role {
+    font-weight: bold;
+}
+.location {
+    font-style: italic;
 }

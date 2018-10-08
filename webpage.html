@@ -1,0 +1,107 @@
+<!doctype html> <!-- every document starts with this -->
+<html lang="en">
+    
+    <head>
+        <title>Rachael's home page</title>
+        <!-- <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    </head>
+
+    <style>
+    *{
+    box-sizing: border-box;
+    }         
+/* Style the header */
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    article {
+        float: left;
+        padding: 20px;
+        width: 97%;
+        background-color:lightpink;
+        /* background-color: #f1f1f1; */
+    }
+    /* Clear floats after the columns */
+    section:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+    /* Style the footer */
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+}
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+    </style>
+
+    <header>
+            <h1>Rachael Lynn Baumann</h1>
+    </header>
+    
+    <body style = "font-size:1.2em;">
+        <section>   
+            <nav>
+                <ul>
+                     <li><a href="http://demonstrations.wolfram.com/author.html?author=Rachael%20L.%20Baumann">
+                    Mathematica Simulations</a></li>
+                     <li><a href="file:///C:/repos/HTML/resume.html">My Resume</a></li>
+                </ul>
+            </nav>
+
+            <article>
+               <h1>About me</h1>
+               <span>
+                   I was born and raised in Cincinnati, then I moved out to Colorado in 2010 for college.
+                   I lived in Colorado for 8 years, going to school for chemical engineering and working
+                   in Mathematica making interactive simulations on different topics in chemical and 
+                   mechanical engineering. 
+                   Here is the 
+                   <a href = "http://demonstrations.wolfram.com/author.html?author=Rachael%20L.%20Baumann">link</a>
+                   to my published simulations on the Wolfram Demonstrations Project page. 
+                   I moved back to Cincinnati in August 2018 to attend a Java boot camp at Cincy Code IT. By
+                   mid-November, I will be a full-stack developer. 
+                   Here is the 
+                   <a href = "file:///C:/repos/HTML/resume.html">link</a> to my resume.
+                <h1>My interests</h1>
+                <span>
+                    In my spare time, when I am not working on projects and assignments for class, I like
+                    to cross stitch, embroider, and paint. I typically paint The Simpsons and drag queens! 
+                    I also enjoy trying new and different craft beers. I've tried over 200 different brews.
+                    India pale ales are my favorite but I also like sours, stouts, and ciders. 
+                    When I lived in Denver and Boulder, I went to a lot of concerts. I've been to over 180 
+                    shows and have seen 436 different bands. My first concert was The Monkees when I was 5
+                    years old. The last show I was at was Streetlight Manifesto in Denver.
+                </span>
+               </span>
+                <!-- <br><a href = "file:///C:/repos/HTML/resume.html">Rachael Baumann resume</a> -->
+            </article>
+        </section>
+            <footer>
+                <p><br>Copyright JustALittleAirborne 2018</p>
+            </footer>
+    </body>
