@@ -1,17 +1,32 @@
-#name {
+#header {
     font-size: 2.2em;
-    font-weight: bold;
-    color: hotpink;
 }
+
+h1 {
+    margin: 0;
+}
+/* span {
+    margin: 1.1em;
+} */
 div {
     /* border: 1px solid magenta; */
     width: 45%;
     display: inline-block;
 }
+
 .rightjust {
     text-align: right;
 }
 .topalign
 {
     vertical-align: top;
+}
+
+table {
+    width: 75%;
+}
+td {
+    text-align: center;
+    font-size: 1.2em;
+    width: 20%;
 }
